@@ -1,0 +1,29 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Pagina de Exclusão</title>
+        <link rel="stylesheet" type="text/css" href="_css/_cadastrosResposta.css">
+    </head>
+    <body>
+        <form action="executa_excluir" method="post" class="login">
+            <div class="CampoLoginESenha">
+                <label>Id:</label><br>
+                <label><%=request.getParameter("id")%></label><br>
+                <input type="hidden" name="id" value="<%=request.getParameter("id")%>" />
+            </div>
+            <div class="CampoLoginESenha">
+                <label>Nome:</label><br>
+                <input type="text" name="nome" value="<%=request.getParameter("nome")%>"><br>
+            </div>
+
+            <input type="hidden" name="FLAG" value="flag1"><br>
+
+            <button class="BotaoPadrao2" type="submit">
+                OK
+            </button>
+
+        </form>
+    </body>
+</html>

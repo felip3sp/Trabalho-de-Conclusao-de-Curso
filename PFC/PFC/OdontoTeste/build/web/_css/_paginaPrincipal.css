@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+}
+body{
+    min-height: 100vh;
+    background-image: url('../_imagens/pexels-anna-shvets-3845806 (1).jpg');
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: -80px;
+    
+}
+
+
+/*banner da tela principal do sistema*/
+
+#banner-home h1{
+    position: absolute;
+    left: 280px;
+    right: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 70px;
+    color: #fff;
+    border-radius: 0px 0px 111px 0px;
+    -moz-border-radius: 0px 0px 111px 0px;
+    -webkit-border-radius: 0px 0px 111px 0px;
+    border: 7px solid #2980b9;
+    padding: 5px;
+    background: linear-gradient(120deg,#3498db,#2980b9);
+}
+
+/*Botão para acessar paginda de cadastros*/
+
+.BotaoCadastro{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 80%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoCadastro:hover{
+    background-position: right;
+
+}
+
+/*Botão para agendar consultas*/
+
+.BotaoAgendar{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    width: 80%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoAgendar:hover{
+    background-position: right;
+
+}
+
+/*Botão para ver a agenda*/
+
+.BotaoVerAgenda{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 80%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoVerAgenda:hover{
+    background-position: right;
+
+}
+
+/*Botão de sair*/
+
+.BotaoSair{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 91%;
+    width: 50%;
+    height: 45px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoSair:hover{
+    background-position: right;
+
+}
+
+#lateral {
+-webkit-box-shadow: 7px 7px 1px 0px rgba(90,147,173,0.98), -5px 19px 1px 0px rgba(65,106,125,0.98), -5px 19px 1px 0px rgba(65,106,125,0.98); 
+box-shadow: 7px 7px 1px 0px #2980b9, -5px 19px 1px 0px #2980b9, -5px 19px 1px 0px rgba#2980b9;
+background: linear-gradient(120deg,#1384C0,#0B6393);
+padding: 180px;
+padding-top: 420px;
+margin-right: 10px;
+position: absolute;
+top: 0px;
+}

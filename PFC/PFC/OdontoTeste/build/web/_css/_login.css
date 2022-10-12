@@ -1,0 +1,104 @@
+/*Tudo */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+/*Corpo */
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg,#ecf0f1,#3498db);
+}
+
+/*Formulário Login */
+
+.login{
+    background: #f1f1f1;
+    width: 360px;
+    height: 550px;
+    padding: 70px 40px;;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*Titulo Principal do Formulário Login */
+
+.login h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*Formatação dos Campos Login e Senha */
+
+.CampoLoginESenha{
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 30px, 0;
+}
+.CampoLoginESenha input{
+    font-size: 20px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+
+}
+.CampoLoginESenha span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    color: #adadad;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.5s;
+}
+.CampoLoginESenha span::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg,#ecf0f1,#3498db);
+}
+.focus + span::before{
+    top: -5px;
+
+}
+.focus + span::after{
+    width: 100%;
+}
+
+/*Formatação do Botão Logar */
+
+.BotaoPadrao1{
+    display: block;
+    position: absolute;
+    top: 55%;
+    width: 78%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.BotaoPadrao1:hover{
+    background-position: right;
+    
+}

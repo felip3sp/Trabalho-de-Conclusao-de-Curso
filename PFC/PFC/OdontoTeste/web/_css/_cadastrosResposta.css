@@ -1,0 +1,269 @@
+/*Tudo */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+/*Corpo */
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg,#ecf0f1,#3498db);
+}
+
+/*Formulário Login */
+
+.login{
+    background: #f1f1f1;
+    width: 450px;
+    height: 580px;
+    padding: 70px 40px;;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*Formulário Só para paciente */
+
+.login2{
+    background: #f1f1f1;
+    width: 600px;
+    height: 820px;
+    padding: 80px 60px;;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*Formulário Só para paciente */
+
+.login3{
+    background: #f1f1f1;
+    width: 600px;
+    height: 897px;
+    padding: 80px 60px;;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*Divosória do formulario paciente */
+
+.bloco{
+    background: #f1f1f1;
+    width: 600px;
+    height: 897px;
+    padding: 80px 60px;;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: 450px;
+    transform: translate(-50%,-50%)
+}
+
+/*Divosória do formulario paciente alteração */
+
+.bloco2{
+    background: #f1f1f1;
+    width: 600px;
+    height: 897px;
+    padding: 80px 60px;;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    top: 430px;
+    transform: translate(-50%,-50%)
+}
+
+/*Formatação do Botão Logar */
+
+.BotaoPadrao1{
+    display: block;
+    position: absolute;
+    top: 93%;
+    width: 78%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoPadrao1:hover{
+    background-position: right;
+
+}
+
+/*Formatação do Botão Logar */
+
+.BotaoPadrao2{
+    display: block;
+    position: absolute;
+    top: 90%;
+    width: 78%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoPadrao2:hover{
+    background-position: right;
+
+}
+
+/*Formatação do Botão OK para alterar paciente */
+
+.BotaoPadrao3{
+    display: block;
+    position: absolute;
+    top: 900px;
+    width: 78%;
+    height: 50px;
+    border: #378de5;
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.BotaoPadrao3:hover{
+    background-position: right;
+
+}
+
+.CampoLoginESenha{
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 50px, 0;
+}
+.CampoLoginESenha input{
+    font-size: 20px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+
+}
+.CampoLoginESenha span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    color: #adadad;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.5s;
+}
+.CampoLoginESenha span::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg,#ecf0f1,#3498db);
+}
+.focus + span::before{
+    top: -5px;
+
+}
+.focus + span::after{
+    width: 100%;
+}
+
+    .select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+        font-family: 'Arial';
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        padding: 8px 21px;
+        outline: 0;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        background: #d3e6f6;
+        color: #7b7b7b;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #000000;
+            background: #d3e6f6;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    .select_arrow {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}
+
+/*Botão Buscar*/
+
+#btnpegar{
+    font-size: 15.2px;
+    display: block;
+    width: 75px;
+    height: 19px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.BotaoExcluirAlterar:hover{
+    background-position: right;
+
+}

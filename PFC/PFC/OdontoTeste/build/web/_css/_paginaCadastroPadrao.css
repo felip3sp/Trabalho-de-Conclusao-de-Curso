@@ -1,0 +1,241 @@
+/*Tudo */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+/*Corpo */
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(120deg,#ecf0f1,#3498db);
+}
+
+/*banner das telas de cadastros*/
+
+#banner-cadastro h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 0px 0px 111px 0px;
+    -moz-border-radius: 0px 0px 111px 0px;
+    -webkit-border-radius: 0px 0px 111px 0px;
+    border: 7px solid #2980b9;
+    padding: 10px;
+    background: linear-gradient(120deg,#3498db,#2980b9);
+}
+
+/*Plataforma da tabela de usuários */
+
+.plataformaUsuario{
+    background: #FFFFFF;
+    width: 800px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%,-50%)
+}
+
+/*Plataforma da tabela de Pacientes */
+
+.plataformaPaciente{
+    background: #FFFFFF;
+    width: 1150px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%,-50%)
+}
+
+/*Formatação dos Campo de Buscar */
+
+.CampoDeBusca{
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.CampoDeBusca input{
+    font-size: 20px;
+    color: #333;
+    border: none;
+    width: 500px;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+
+}
+
+/*Botão Buscar*/
+
+.BotaoBuscar{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 76.5%;
+    top: 10%;
+    width: 150px;
+    height: 35px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.BotaoBuscar:hover{
+    background-position: right;
+
+}
+
+/*Botão Excluir*/
+
+.BotaoExcluirAlterar{
+    font-size: 15.2px;
+    display: block;
+    width: 75px;
+    height: 19px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.BotaoExcluirAlterar:hover{
+    background-position: right;
+
+}
+
+/*Botão Excluir para usuarios*/
+
+.BotaoExcluirAlterar2{
+    font-size: 15.2px;
+    display: block;
+    margin-left: 49px;
+    width: 100px;
+    height: 19px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.BotaoExcluirAlterar2:hover{
+    background-position: right;
+
+}
+
+/*Botão para Voltar a pagina de Cadastro*/
+
+.Voltar{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 2%;
+    top: 12%;
+    width: 180px;
+    height: 40px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.Voltar:hover{
+    background-position: right;
+
+}
+
+/*Botão Criar novo Usuário*/
+
+.Novo{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 75%;
+    top: 90%;
+    width: 180px;
+    height: 40px;
+    border: #378de5;
+    background: linear-gradient(120deg,#224A96,#8e44ad);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.Voltar:hover{
+    background-position: right;
+
+}
+
+table.TabelaPacientes {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  height: 24%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.TabelaPacientes td, table.TabelaPacientes th {
+  border: 1px solid #FFFFFF;
+  padding: 5px 3px;
+}
+table.TabelaPacientes tbody td {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+table.TabelaPacientes tr:nth-child(even) {
+  background: #BBE4FF;
+}
+table.TabelaPacientes thead {
+  background: #2980B9;
+  border-bottom: 2px solid #BBE4FF;
+}
+table.TabelaPacientes thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #BBE4FF;
+}
+table.TabelaPacientes thead th:first-child {
+  border-left: none;
+}
+
+table.TabelaPacientes tfoot td {
+  font-size: 14px;
+}
+
